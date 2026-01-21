@@ -1,4 +1,4 @@
-package com.java.corejava;
+package com.java.logicalprograms;
 
 import java.util.Scanner;
 
