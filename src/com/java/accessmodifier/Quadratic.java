@@ -1,4 +1,4 @@
-package com.java.practiceproblem;
+package com.java.accessmodifier;
 
 public class Quadratic {
     public static void main(String[] args) {

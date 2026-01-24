@@ -1,4 +1,4 @@
-package com.java.practiceproblem;
+package com.java.accessmodifier;
 
 import java.util.Scanner;
 

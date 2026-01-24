@@ -1,15 +1,14 @@
-package com.java.practiceproblem;
+package com.java.accessmodifier;
 
 import java.util.Scanner;
 
-public class PalindromeNumber {
+public class ReverseNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        int original = n;
         int reverse = 0;
 
         while (n != 0) {
@@ -18,11 +17,9 @@ public class PalindromeNumber {
             n = n / 10;
         }
 
-        if (original == reverse)
-            System.out.println("It is a Palindrome Number");
-        else
-            System.out.println("It is NOT a Palindrome Number");
+        System.out.println("Reversed number = " + reverse);
 
         sc.close();
     }
+
 }
