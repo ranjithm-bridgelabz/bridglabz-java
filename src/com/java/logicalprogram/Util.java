@@ -1,4 +1,4 @@
-package com.java.logicalprogramming;
+package com.java.logicalprogram;
 
 public class Util {
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Javaprogram.iml" filepath="$PROJECT_DIR$/Javaprogram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bridglabz-java.iml" filepath="$PROJECT_DIR$/.idea/bridglabz-java.iml" />
     </modules>
   </component>
 </project>
