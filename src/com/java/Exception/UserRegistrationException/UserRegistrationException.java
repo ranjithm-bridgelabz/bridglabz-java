@@ -1,4 +1,4 @@
-package com.java.Exception;
+package com.java.Exception.UserRegistrationException;
 
 public class UserRegistrationException extends Exception {
 
