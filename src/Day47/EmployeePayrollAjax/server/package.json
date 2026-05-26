@@ -1,0 +1,8 @@
+{
+  "name": "employee-payroll-ajax",
+  "version": "1.0.0",
+  "main": "callbackDemo.js",
+  "scripts": {
+    "start": "node callbackDemo.js"
+  }
+}
