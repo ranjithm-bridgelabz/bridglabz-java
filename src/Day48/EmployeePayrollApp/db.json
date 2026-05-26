@@ -1,0 +1,11 @@
+{
+  "employeePayrollList": [
+    {
+      "id": 1,
+      "name": "Ranjith",
+      "salary": "50000",
+      "gender": "male",
+      "startDate": "2026-05-26"
+    }
+  ]
+}
