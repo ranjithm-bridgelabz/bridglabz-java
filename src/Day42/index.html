@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Forms</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>User Registration Form</h1>
+
+        <form>
+
+            <!-- UC1 First Name -->
+            <label>First Name</label>
+            <input type="text"
+                   placeholder="Enter First Name"
+                   pattern="^[A-Z]{1}[a-z]{2,}$"
+                   required>
+
+            <!-- UC2 Email -->
+            <label>Email</label>
+            <input type="email"
+                   placeholder="Enter Email"
+                   required>
+
+            <!-- UC3 Mobile -->
+            <label>Mobile Number</label>
+            <input type="tel"
+                   placeholder="91 9876543210"
+                   pattern="^[0-9]{2}\s[0-9]{10}$"
+                   required>
+
+            <!-- UC5 Password -->
+            <label>Password</label>
+            <input type="password"
+                   placeholder="Enter Password"
+                   pattern="^(?=.*[A-Z])(?=.*[0-9])(?=[^@#$%^&*]*[@#$%^&*][^@#$%^&*]*$).{8,}$"
+                   required>
+
+            <button type="submit">
+                Register
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
