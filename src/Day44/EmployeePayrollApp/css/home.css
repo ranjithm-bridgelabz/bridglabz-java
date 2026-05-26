@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #ffffff;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-content{
+    display: flex;
+    align-items: center;
+}
+
+.emp-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: #82A70C;
+}
+
+.payroll-text{
+    color: #42515F;
+}

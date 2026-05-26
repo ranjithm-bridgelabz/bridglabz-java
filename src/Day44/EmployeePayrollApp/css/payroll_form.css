@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-content{
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 65%;
+    padding: 40px 60px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.form-head{
+    font-size: 24px;
+    color: #42515F;
+    margin-bottom: 20px;
+}
+
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.label{
+    min-width: 140px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+}
+
+.salary-output{
+    font-size: 20px;
+    color: #82A70C;
+}
+
+.buttonParent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submitButton{
+    background-color: #82A70C;
+    color: white;
+}
+
+.resetButton{
+    background-color: #e2e2e2;
+}
