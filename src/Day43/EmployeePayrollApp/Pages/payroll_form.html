@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Employee Payroll Form</title>
+
+    <link rel="stylesheet" href="../css/payroll_form.css">
+
+</head>
+<body>
+
+    <div class="form-content">
+
+        <form class="form" onsubmit="save(event)">
+
+            <div class="form-head">
+                Employee Payroll Form
+            </div>
+
+            <div class="row-content">
+                <label class="label">Name</label>
+
+                <input class="input"
+                       type="text"
+                       id="name"
+                       required>
+            </div>
+
+            <div class="row-content">
+                <label class="label">Salary</label>
+
+                <input type="range"
+                       id="salary"
+                       min="300000"
+                       max="500000"
+                       value="400000">
+
+                <output class="salary-output">400000</output>
+            </div>
+
+            <div class="row-content">
+                <label class="label">Gender</label>
+
+                <input type="radio"
+                       name="gender"
+                       value="Male"
+                       checked> Male
+
+                <input type="radio"
+                       name="gender"
+                       value="Female"> Female
+            </div>
+
+            <div class="row-content">
+                <label class="label">Notes</label>
+
+                <textarea id="notes"
+                          class="input"></textarea>
+            </div>
+
+            <div class="buttonParent">
+
+                <button type="submit"
+                        class="button submitButton">
+                    Submit
+                </button>
+
+                <button type="button"
+                        class="button resetButton"
+                        onclick="resetForm()">
+                    Reset
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="../js/employeePayrollData.js"></script>
+    <script src="../js/employeePayroll.js"></script>
+
+</body>
+</html>
